@@ -4,4 +4,8 @@ body {
     letter-spacing: 2px;
     font-size: 1em;
     font-family: "Microsoft YaHei","WenQuanYi Micro Hei","Open Sans","Hiragino Sans GB",Arial,Verdana,Tahoma,sans-serif;
+    height: 100%;
+}
+.mdl-layout__content, .page-content, .mdl-layout__tab-panel, #map-content {
+    height: 100%;
 }
