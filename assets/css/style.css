@@ -15,3 +15,9 @@ body {
 .mdl-layout__tab-bar {
     height: auto;
 }
+nav a{
+    opacity: .65;
+}
+nav a:hover{
+    opacity: 1;
+}
