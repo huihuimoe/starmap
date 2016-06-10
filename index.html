@@ -7,70 +7,54 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="theme-color" content="rgba(239, 122, 182, 0.9)">
-    <title>Material Design Lite</title>
-    <link rel="shortcut icon" href="https://bgm.tv/img/favicon.ico">
+    <title>Bangumi星空计划地图索引</title>
+    <link rel="shortcut icon" href="//bgm.tv/img/favicon.ico">
     <link rel="stylesheet" href="//fonts.lug.ustc.edu.cn/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/material.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Simple header with scrollable tabs. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">Title</span>
+                <span class="mdl-layout-title">Bangumi星空计划地图索引</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a href="https://github.com/huihuimoe/dtarmap" class="mdl-navigation__link mdl-navigation__link--icon github" target="_blank"><i class="material-icons">link</i><span>GitHub</span></a>
+                </nav>
             </div>
-            <!-- Tabs -->
             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
-                <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
-                <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
-                <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
-                <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
-                <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+                <a href="#maps" class="mdl-layout__tab is-active">大地图</a>
+                <a href="#stat" class="mdl-layout__tab">传递状况</a>
+                <a href="#wiki" class="mdl-layout__tab">页面说明</a>
             </div>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Title</span>
         </div>
         <main class="mdl-layout__content">
-            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+            <section class="mdl-layout__tab-panel is-active" id="maps">
                 <div class="page-content">
-                    <!-- Your content goes here -->
+                    <div id="map-content"></div>
                 </div>
             </section>
-            <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+            <section class="mdl-layout__tab-panel" id="stat">
                 <div class="page-content">
-                    <!-- Your content goes here -->
+
                 </div>
             </section>
-            <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+            <section class="mdl-layout__tab-panel" id="wiki">
                 <div class="page-content">
-                    <!-- Your content goes here -->
-                </div>
-            </section>
-            <section class="mdl-layout__tab-panel" id="scroll-tab-4">
-                <div class="page-content">
-                    <!-- Your content goes here -->
-                </div>
-            </section>
-            <section class="mdl-layout__tab-panel" id="scroll-tab-5">
-                <div class="page-content">
-                    <!-- Your content goes here -->
-                </div>
-            </section>
-            <section class="mdl-layout__tab-panel" id="scroll-tab-6">
-                <div class="page-content">
-                    <!-- Your content goes here -->
+
                 </div>
             </section>
         </main>
     </div>
 
-    <script src="/assets/material.min.js"></script>
-    <script src="/assets/main.min.js"></script>
+    <script src="assets/js/material.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyB2rLgLudyVjKiTcqclS8WJb8S3U5R728g&callback=initMap"></script>
 </body>
 
 </html>
