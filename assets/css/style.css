@@ -9,6 +9,9 @@ body {
 .mdl-layout__content, .page-content, .mdl-layout__tab-panel, #map-content {
     height: 100%;
 }
-.mdl-layout__tab-bar-button{
+.mdl-layout__tab-bar-button {
     color:#fff;
+}
+.mdl-layout__tab-bar {
+    height: auto;
 }
