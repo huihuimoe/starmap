@@ -1,3 +1,298 @@
 {
-    
+    "current": 4,
+    //已插队，按顺序
+    "inserted": [],
+    "route": {
+        "1": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "2": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "3": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "4": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "5": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "6": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "7": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "8": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "9": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "10": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "11": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "12": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "13": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "14": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "15": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "16": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "17": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "18": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "19": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "20": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "21": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "22": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "23": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "24": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "25": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "26": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "27": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "28": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "29": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "30": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "31": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "32": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "33": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "34": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "35": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "36": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "37": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "38": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "39": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        }
+    },
+    //插队人士
+    "abroad": {
+        "1": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "2": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "3": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "4": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "5": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "6": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "7": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "8": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "9": {
+            "nickname": "",
+            "username": "",
+            "location": "",
+            "forum":    ""
+        }
+    }
 }
