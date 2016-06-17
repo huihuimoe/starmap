@@ -1,16 +1,13 @@
 var map;
-function removeAnno(code) { //去除注释
-    var reg = /("([^\\\"]*(\\.)?)*")|('([^\\\']*(\\.)?)*')|(\/{2,}.*?(\r|\n))/g;
-    return code.replace(reg, function (word) {
-        return /^\/{2,}/.test(word) ? "" : word;
-    });
-}
 function fetchJson(url, callback) {
     var request = new XMLHttpRequest();
     request.open('GET', url, true);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
-            callback.call(this, JSON.parse(removeAnno(request.responseText)));
+            callback.call(this, JSON.parse(
+                request.responseText.replace(/("([^\\\"]*(\\.)?)*")|('([^\\\']*(\\.)?)*')|(\/{2,}.*?(\r|\n))/g, function (word) {
+                    return /^\/{2,}/.test(word) ? "" : word; //去除注释
+                })));
         } else {
             alert("地图加载失败啦，按下F5吧~");
         }
