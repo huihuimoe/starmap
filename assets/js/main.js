@@ -1,8 +1,8 @@
 var map;
 function removeAnno(code) { //去除注释
-    var reg = /("([^\\\"]*(\\.)?)*")|('([^\\\']*(\\.)?)*')|(\/{2,}.*?(\r|\n))|(\/\*(\n|.)*?\*\/)/g;
+    var reg = /("([^\\\"]*(\\.)?)*")|('([^\\\']*(\\.)?)*')|(\/{2,}.*?(\r|\n))/g;
     return code.replace(reg, function (word) {
-        return /^\/{2,}/.test(word) || /^\/\*/.test(word) ? "" : word;
+        return /^\/{2,}/.test(word) ? "" : word;
     });
 }
 function fetchJson(url, callback) {
