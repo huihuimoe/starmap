@@ -1,296 +1,314 @@
 {
     "current": 4,
-    //已插队，按顺序
-    "inserted": [],
-    "route": {
-        "1": {
-            "nickname": "",
-            "username": "",
-            "location": "",
-            "forum":    ""
+    "route": [
+        // 1-10
+        "zainer",
+        "lostanother",
+        "astroprofundis",
+        "birdlay",
+        "black_tea2333",
+        "skgyou27",
+        "63501",
+        "seveninti",
+        "detao0452",
+        "everpcpc",
+        // 11-20
+        "hottomper",
+        "fifth",
+        "frank1998sj",
+        "xu940830",
+        "wjself",
+        "a582977826",
+        "sinker",
+        "apocalypse_shu",
+        "kakinuma",
+        "zhaory",
+        // 21-30
+        "karelif",
+        "leeschan",
+        "mgodric",
+        "angcz",
+        "mono",
+        "", //未知 nickname为 無に唄を。。
+        "azurewrath",
+        "", //未知 nickname为 Nananas
+        "abioticsq",
+        "sha1360",
+        // 31-40
+        "ohana",
+        "stay",
+        "utar",
+        "yubisaki",
+        "pchpeach",
+        "scarlet_feather",
+        "qq624130658",
+        "leon92101",
+        "209662",
+        "gongt"
+        /**
+         * 海外待定区
+         * @暗影中的追迹者 | @Deil | @dhzy | @豆沙包罐头 | @ichiゴ | @Lighthouse 不该 | @mizudiwood | @示申イ山 | @沙翼他的大爷 | @小寒 | @·_﹙
+         */
+    ],
+    "profile": {
+        /**
+         * username - https://bgm.tv/user/{$username}
+         * nickname
+         * location
+         * forum - https://bgm.tv/group/topic/{$forum}
+         */
+        "zainer": {
+            "nickname": "阿布拉其阿亚尔阿肯尔",
+            "location": "陕西省西安市",
+            "forum":    "340209"
         },
-        "2": {
-            "nickname": "",
-            "username": "",
-            "location": "",
-            "forum":    ""
+        "lostanother": {
+            "nickname": "Another",
+            "location": "北京市朝阳区",
+            "forum":    "340228"
         },
-        "3": {
-            "nickname": "",
-            "username": "",
-            "location": "",
-            "forum":    ""
+        "astroprofundis": {
+            "nickname": "AstroProfundis",
+            "location": "江苏",
+            "forum":    "340380"
         },
-        "4": {
-            "nickname": "",
-            "username": "",
-            "location": "",
-            "forum":    ""
+        "black_tea2333": {
+            "nickname": "Black_Tea",
+            "location": "四川",
+            "forum":    "340195"
         },
-        "5": {
-            "nickname": "",
-            "username": "",
+        "birdlay": {
+            "nickname": "aria",
             "location": "",
             "forum":    ""
         },
         "6": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "7": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "8": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "9": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "10": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "11": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "12": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "13": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "14": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "15": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "16": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "17": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "18": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "19": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "20": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "21": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "22": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "23": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "24": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "25": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "26": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "27": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "28": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "29": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "30": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "31": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "32": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "33": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "34": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "35": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "36": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "37": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "38": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
         "39": {
             "nickname": "",
-            "username": "",
-            "location": "",
-            "forum":    ""
-        }
-    },
-    //插队人士
-    "abroad": {
-        "1": {
-            "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "2": {
+        "40": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "3": {
+        "41": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "4": {
+        "42": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "5": {
+        "43": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "6": {
+        "44": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "7": {
+        "45": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "8": {
+        "46": {
             "nickname": "",
-            "username": "",
             "location": "",
             "forum":    ""
         },
-        "9": {
+        "47": {
             "nickname": "",
-            "username": "",
+            "location": "",
+            "forum":    ""
+        },
+        "48": {
+            "nickname": "",
+            "location": "",
+            "forum":    ""
+        },
+        "49": {
+            "nickname": "",
+            "location": "",
+            "forum":    ""
+        },
+        "50": {
+            "nickname": "",
+            "location": "",
+            "forum":    ""
+        },
+        "51": {
+            "nickname": "",
             "location": "",
             "forum":    ""
         }
