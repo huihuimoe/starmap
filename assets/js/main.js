@@ -4,6 +4,7 @@ function fetchJson(url, callback) {
     request.open('GET', url, true);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
+            console.log(request.responseText);
             callback.call(this, JSON.parse(request.responseText));
         } else {
             alert("地图加载失败啦，按下F5吧~");
