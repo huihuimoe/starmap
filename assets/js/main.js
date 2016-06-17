@@ -10,7 +10,9 @@ function fetchJson(url, callback) {
     request.open('GET', url, true);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
-            callback.call(this, JSON.parse(removeAnno(request.responseText)));
+            var result=removeAnno(request.responseText);
+            console.log(result);
+            callback.call(this, JSON.parse(result));
         } else {
             alert("地图加载失败啦，按下F5吧~");
         }
