@@ -45,11 +45,11 @@
         "leon92101",
         "209662",
         "gongt"
-        /**
-         * 海外待定区
-         * 暗影中的追迹者 | Deil | dhzy | 豆沙包罐头 | ichiゴ | Lighthouse 不该 | mizudiwood | 示申イ山 | 沙翼他的大爷 | 小寒 | ·_﹙
-         */
     ],
+    /**
+     * 海外待定区
+     * @暗影中的追迹者 | @Deil | @dhzy | @豆沙包罐头 | @ichiゴ | @Lighthouse 不该 | @mizudiwood | @示申イ山 | @沙翼他的大爷 | @小寒 | @·_﹙
+     */
     "profile": {
         /**
          * username - https://bgm.tv/user/{$username}
