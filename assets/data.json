@@ -29,9 +29,9 @@
         "mgodric",
         "angcz",
         "mono",
-        "", //未知 nickname为 無に唄を。。
+        "unknown1", //未知 nickname为 無に唄を。。
         "azurewrath",
-        "", //未知 nickname为 Nananas
+        "unknown2", //未知 nickname为 Nananas
         "abioticsq",
         "sha1360",
         // 31-40
@@ -45,10 +45,23 @@
         "leon92101",
         "209662",
         "gongt"
+    ],
+    "undetermin": [
         ///
         // 海外待定区
         // @暗影中的追迹者 | @Deil | @dhzy | @豆沙包罐头 | @ichiゴ | @Lighthouse 不该 | @mizudiwood | @示申イ山 | @沙翼他的大爷 | @小寒 | @·_﹙
         ///
+        "66259",
+        "delitofu",
+        "dhzy",
+        "36176",
+        "65282",
+        "light_44",
+        "mizudiwood",
+        "gates_ice",
+        "112239",
+        "grubstreet",
+        "103988"
     ],
     "profile": {
         ///
@@ -79,237 +92,238 @@
         },
         "birdlay": {
             "nickname": "aria",
+            "location": "北京",
+            "forum":    ""
+        },
+        "skgyou27": {
+            "nickname": "yuu27",
+            "location": "广东",
+            "forum":    ""
+        },
+        "63501": {
+            "nickname": "澄子",
+            "location": "广东",
+            "forum":    ""
+        },
+        "seveninti": {
+            "nickname": "岛村卵用",
+            "location": "贵州",
+            "forum":    ""
+        },
+        "detao0452": {
+            "nickname": "Detao",
+            "location": "甘肃",
+            "forum":    ""
+        },
+        "everpcpc": {
+            "nickname": "everpcpc",
+            "location": "北京",
+            "forum":    ""
+        },
+        "hottomper": {
+            "nickname": "绯红の空",
+            "location": "陕西",
+            "forum":    ""
+        },
+        "fifth": {
+            "nickname": "fifth",
+            "location": "上海",
+            "forum":    ""
+        },
+        "frank1998sj": {
+            "nickname": "Frank1998sj",
+            "location": "上海",
+            "forum":    ""
+        },
+        "xu940830": {
+            "nickname": "工藤龍一郎",
+            "location": "南京",
+            "forum":    ""
+        },
+        "wjself": {
+            "nickname": "灰灰",
+            "location": "广东省云浮市",
+            "forum":    ""
+        },
+        "a582977826": {
+            "nickname": "昊天通明宫",
+            "location": "四川",
+            "forum":    ""
+        },
+        "sinker": {
+            "nickname": "15cm_窗",
+            "location": "浙江",
+            "forum":    ""
+        },
+        "apocalypse_shu": {
+            "nickname": "芥末酱油丸",
+            "location": "北京",
+            "forum":    ""
+        },
+        "kakinuma": {
+            "nickname": "柿沼楚子",
+            "location": "江苏",
+            "forum":    ""
+        },
+        "zhaory": {
+            "nickname": "K K K_KAZE",
+            "location": "河南",
+            "forum":    ""
+        },
+        "karelif": {
+            "nickname": "KareLIF",
+            "location": "辽宁",
+            "forum":    ""
+        },
+        "leeschan": {
+            "nickname": "Leeschan",
+            "location": "浙江",
+            "forum":    ""
+        },
+        "mgodric": {
+            "nickname": "麦糕",
+            "location": "浙江",
+            "forum":    ""
+        },
+        "angcz": {
+            "nickname": "慢几拍",
+            "location": "武汉",
+            "forum":    ""
+        },
+        "mono": {
+            "nickname": "mono",
+            "location": "百慕大",// -
+            "forum":    ""
+        },
+        "azurewrath": {
+            "nickname": "奈美酱拉面",
+            "location": "北京",
+            "forum":    ""
+        },
+        "abioticsq": {
+            "nickname": "男厕所精灵",
+            "location": "安徽",
+            "forum":    ""
+        },
+        "sha1360": {
+            "nickname": "Pnyuu",
+            "location": "广东",
+            "forum":    ""
+        },
+        "ohana": {
+            "nickname": "HKH",
+            "location": "陕西",
+            "forum":    ""
+        },
+        "stay": {
+            "nickname": "iahaa",
+            "location": "四川成都",
+            "forum":    ""
+        },
+        "utar": {
+            "nickname": "塔塔塔",
+            "location": "北京",
+            "forum":    ""
+        },
+        "yubisaki": {
+            "nickname": "小林ことり",
+            "location": "上海",
+            "forum":    ""
+        },
+        "pchpeach": {
+            "nickname": "小桃",
+            "location": "江苏",
+            "forum":    ""
+        },
+        "scarlet_feather": {
+            "nickname": "音月",
+            "location": "广东",
+            "forum":    ""
+        },
+        "qq624130658": {
+            "nickname": "悠姬L",
+            "location": "江苏",
+            "forum":    ""
+        },
+        "leon92101": {
+            "nickname": "御户白夜",
+            "location": "上海",
+            "forum":    ""
+        },
+        "209662": {
+            "nickname": "莉莉丝~",
             "location": "",
             "forum":    ""
         },
-        "6": {
-            "nickname": "",
+        "gongt": {
+            "nickname": "魂魄妖梦",
             "location": "",
             "forum":    ""
         },
-        "7": {
-            "nickname": "",
-            "location": "",
+        "66259": {
+            "nickname": "暗影中的追迹者",
+            "location": "Regina, SK, Canada",
             "forum":    ""
         },
-        "8": {
-            "nickname": "",
-            "location": "",
+        "delitofu": {
+            "nickname": "Deli",
+            "location": "Rome, Italie",
             "forum":    ""
         },
-        "9": {
-            "nickname": "",
-            "location": "",
+        "dhzy": {
+            "nickname": "dhzy",
+            "location": "NY, United States",
             "forum":    ""
         },
-        "10": {
-            "nickname": "",
-            "location": "",
+        "36176": {
+            "nickname": "豆沙包罐头",
+            "location": "Texas, United States",
             "forum":    ""
         },
-        "11": {
-            "nickname": "",
-            "location": "",
+        "65282": {
+            "nickname": "ichiゴ",
+            "location": "Washington, DC, United States",
             "forum":    ""
         },
-        "12": {
-            "nickname": "",
-            "location": "",
+        "light_44": {
+            "nickname": "lighthouse",
+            "location": "United Kingdom",
             "forum":    ""
         },
-        "13": {
-            "nickname": "",
-            "location": "",
+        "mizudiwood": {
+            "nickname": "mizudiwood",
+            "location": "日本福島縣",
             "forum":    ""
         },
-        "14": {
-            "nickname": "",
-            "location": "",
+        "gates_ice": {
+            "nickname": "示申イ山",
+            "location": "Arlington Heights, IL, United States",
             "forum":    ""
         },
-        "15": {
-            "nickname": "",
-            "location": "",
+        "112239": {
+            "nickname": "沙翼他的大爷",
+            "location": "Spain",
             "forum":    ""
         },
-        "16": {
-            "nickname": "",
-            "location": "",
+        "grubstreet": {
+            "nickname": "小寒",
+            "location": "Washington, DC, United States",
             "forum":    ""
         },
-        "17": {
-            "nickname": "",
-            "location": "",
+        "103988": {
+            "nickname": "·_﹙",
+            "location": "French",
             "forum":    ""
         },
-        "18": {
-            "nickname": "",
-            "location": "",
+        //unknown
+        "unknown1": {
+            "nickname": "無に唄を。。",
+            "location": "上海",
             "forum":    ""
         },
-        "19": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "20": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "21": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "22": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "23": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "24": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "25": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "26": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "27": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "28": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "29": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "30": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "31": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "32": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "33": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "34": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "35": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "36": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "37": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "38": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "39": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "40": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "41": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "42": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "43": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "44": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "45": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "46": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "47": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "48": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "49": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "50": {
-            "nickname": "",
-            "location": "",
-            "forum":    ""
-        },
-        "51": {
-            "nickname": "",
-            "location": "",
+        "unknown2": {
+            "nickname": "Nananas",
+            "location": "安徽",
             "forum":    ""
         }
     }
