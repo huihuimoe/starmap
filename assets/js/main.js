@@ -4,8 +4,8 @@ function mapCallBack(data) {
     var current = data.current,
         map, route = new Array(), undetermin = new Array();
     map = new google.maps.Map(document.getElementById('map-content'), {
-        //center: { lat: 22.8531358, lng: 111.249542 },
-        //zoom: 8
+        center: { lat: 23.1259819, lng: 112.9476504 },
+        zoom: 10
     });
     data.route.forEach(function(username, index){
         var profile = Object.getOwnPropertyDescriptor(data.profile, username).value;
@@ -36,7 +36,7 @@ function mapCallBack(data) {
      * 其余部分画虚线或者其他表示方式 (选做)
      * 传递状况做一个list就可以
      */
-    
+
 
     // Debug require
     console.log(route, undetermin);
