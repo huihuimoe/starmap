@@ -1,32 +1,45 @@
 "use strict";
 
 function mapCallBack(data) {
-    //let {current, profile, route, undetermin} = data;
     var current = data.current,
-        allProfile = data.profile,
-        route = data.route,
-        undetermin = data.undetermin,
-        map;
+        map, route = new Array(), undetermin = new Array();
     map = new google.maps.Map(document.getElementById('map-content'), {
         //center: { lat: 22.8531358, lng: 111.249542 },
         //zoom: 8
     });
-    route.forEach(function(username, index){
-        var profile = Object.getOwnPropertyDescriptor(allProfile, username).value;
-        /**
-         * maybe use
-         * 
-         * profile  - Object
-         *   - nickname
-         *   - location
-         *   - forum
-         * username - String
-         * index    - Number
-         * current  - Number
-         */
-        console.log(profile);
+    data.route.forEach(function(username, index){
+        var profile = Object.getOwnPropertyDescriptor(data.profile, username).value;
+        profile.username = username;
+        route[index] = profile;
     });
+    data.undetermin.forEach(function(username, index){
+        var profile = Object.getOwnPropertyDescriptor(data.profile, username).value;
+        profile.username = username;
+        undetermin[index] = profile;
+    });
+
+    /**
+     * 转换完成后需要用到的变量
+     * route
+     * undetermin
+     * current
+     * map
+     */
+    /**
+     * 标记 和 面板部分
+     * route undetermin 的location都需要做
+     * 面板就是个人信息什么的……
+     */
+    /**
+     * 画线部分 和 传递状况
+     * index < current-1 部分画实线
+     * 其余部分画虚线或者其他表示方式 (选做)
+     * 传递状况做一个list就可以
+     */
+    
+
     // Debug require
+    console.log(route, undetermin);
     window.map = map;
     window.data = data;
     //console.log(data, map);
