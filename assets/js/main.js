@@ -1,15 +1,35 @@
 "use strict";
 
 function mapCallBack(data) {
-    var map = new google.maps.Map(document.getElementById('map-content'), {
-        center: { lat: 22.8531358, lng: 111.249542 },
-        zoom: 8
+    //let {current, profile, route, undetermin} = data;
+    var current = data.current,
+        allProfile = data.profile,
+        route = data.route,
+        undetermin = data.undetermin,
+        map;
+    map = new google.maps.Map(document.getElementById('map-content'), {
+        //center: { lat: 22.8531358, lng: 111.249542 },
+        //zoom: 8
     });
-
+    route.forEach(function(username, index){
+        var profile = Object.getOwnPropertyDescriptor(allProfile, username).value;
+        /**
+         * maybe use
+         * 
+         * profile  - Object
+         *   - nickname
+         *   - location
+         *   - forum
+         * username - String
+         * index    - Number
+         * current  - Number
+         */
+        console.log(profile);
+    });
     // Debug require
     window.map = map;
     window.data = data;
-    console.log(data, map);
+    //console.log(data, map);
 }
 
 function initMap() {
