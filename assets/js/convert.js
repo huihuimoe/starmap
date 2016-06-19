@@ -13,7 +13,10 @@ function convert() {
 function mapCallBack(data, second) {
     second = 0 || second;
     if (second) {
-        if (route[0]) return;
+        if (route[0]){
+            convert();
+            return;
+        }
         console.log("dataConvent route start");
         dataConvent(data, data.route, route);
     } else {
@@ -49,7 +52,7 @@ function getLocation(data, profile, index, before, after, isStop) {
         after[index] = profile;
         console.log(index);
         if (isStop) {
-            console.log("dataConvent complete! please run convert()");
+            console.log("dataConvent complete!");
             mapCallBack(data, true);
         } else {
             dataConvent(data, before, after, ++index);
