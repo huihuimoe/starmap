@@ -128,7 +128,7 @@
         },
         "fifth": {
             "nickname": "fifth",
-            "location": "上海",
+            "location": "上海市",
             "forum":    ""
         },
         "frank1998sj": {
@@ -193,7 +193,7 @@
         },
         "mono": {
             "nickname": "mono",
-            "location": "百慕大",// -
+            "location": "百慕大",//防止错误发生
             "forum":    ""
         },
         "azurewrath": {
@@ -253,12 +253,12 @@
         },
         "209662": {
             "nickname": "莉莉丝~",
-            "location": "",
+            "location": "百慕大",//防止错误发生
             "forum":    ""
         },
         "gongt": {
             "nickname": "魂魄妖梦",
-            "location": "",
+            "location": "百慕大",//防止错误发生
             "forum":    ""
         },
         "66259": {
