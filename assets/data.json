@@ -68,263 +68,263 @@
         ///
         // username - https://bgm.tv/user/{$username}
         // nickname
-        // location
+        // address
         // forum - https://bgm.tv/group/topic/{$forum}
         ///
         "zainer": {
             "nickname": "阿布拉其阿亚尔阿肯尔",
-            "location": "陕西省西安市",
+            "address": "陕西省西安市",
             "forum":    "340209"
         },
         "lostanother": {
             "nickname": "Another",
-            "location": "北京市朝阳区",
+            "address": "北京市朝阳区",
             "forum":    "340228"
         },
         "astroprofundis": {
             "nickname": "AstroProfundis",
-            "location": "江苏",
+            "address": "江苏",
             "forum":    "340380"
         },
         "black_tea2333": {
             "nickname": "Black_Tea",
-            "location": "四川",
+            "address": "四川",
             "forum":    "340195"
         },
         "birdlay": {
             "nickname": "aria",
-            "location": "北京",
+            "address": "北京",
             "forum":    ""
         },
         "skgyou27": {
             "nickname": "yuu27",
-            "location": "广东",
+            "address": "广东",
             "forum":    ""
         },
         "63501": {
             "nickname": "澄子",
-            "location": "广东",
+            "address": "广东",
             "forum":    ""
         },
         "seveninti": {
             "nickname": "岛村卵用",
-            "location": "贵州",
+            "address": "贵州",
             "forum":    ""
         },
         "detao0452": {
             "nickname": "Detao",
-            "location": "甘肃",
+            "address": "甘肃",
             "forum":    ""
         },
         "everpcpc": {
             "nickname": "everpcpc",
-            "location": "北京",
+            "address": "北京",
             "forum":    ""
         },
         "hottomper": {
             "nickname": "绯红の空",
-            "location": "陕西",
+            "address": "陕西",
             "forum":    ""
         },
         "fifth": {
             "nickname": "fifth",
-            "location": "上海市",
+            "address": "上海市",
             "forum":    ""
         },
         "frank1998sj": {
             "nickname": "Frank1998sj",
-            "location": "上海",
+            "address": "上海",
             "forum":    ""
         },
         "xu940830": {
             "nickname": "工藤龍一郎",
-            "location": "南京",
+            "address": "南京",
             "forum":    ""
         },
         "wjself": {
             "nickname": "灰灰",
-            "location": "广东省云浮市",
+            "address": "广东省云浮市",
             "forum":    ""
         },
         "a582977826": {
             "nickname": "昊天通明宫",
-            "location": "四川",
+            "address": "四川",
             "forum":    ""
         },
         "sinker": {
             "nickname": "15cm_窗",
-            "location": "浙江",
+            "address": "浙江",
             "forum":    ""
         },
         "apocalypse_shu": {
             "nickname": "芥末酱油丸",
-            "location": "北京",
+            "address": "北京",
             "forum":    ""
         },
         "kakinuma": {
             "nickname": "柿沼楚子",
-            "location": "江苏",
+            "address": "江苏",
             "forum":    ""
         },
         "zhaory": {
             "nickname": "K K K_KAZE",
-            "location": "河南",
+            "address": "河南",
             "forum":    ""
         },
         "karelif": {
             "nickname": "KareLIF",
-            "location": "辽宁",
+            "address": "辽宁",
             "forum":    ""
         },
         "leeschan": {
             "nickname": "Leeschan",
-            "location": "浙江",
+            "address": "浙江",
             "forum":    ""
         },
         "mgodric": {
             "nickname": "麦糕",
-            "location": "浙江",
+            "address": "浙江",
             "forum":    ""
         },
         "angcz": {
             "nickname": "慢几拍",
-            "location": "武汉",
+            "address": "武汉",
             "forum":    ""
         },
         "mono": {
             "nickname": "mono",
-            "location": "百慕大",//防止错误发生
+            "address": "百慕大",//防止错误发生
             "forum":    ""
         },
         "azurewrath": {
             "nickname": "奈美酱拉面",
-            "location": "北京",
+            "address": "北京",
             "forum":    ""
         },
         "abioticsq": {
             "nickname": "男厕所精灵",
-            "location": "安徽",
+            "address": "安徽",
             "forum":    ""
         },
         "sha1360": {
             "nickname": "Pnyuu",
-            "location": "广东",
+            "address": "广东",
             "forum":    ""
         },
         "ohana": {
             "nickname": "HKH",
-            "location": "陕西",
+            "address": "陕西",
             "forum":    ""
         },
         "stay": {
             "nickname": "iahaa",
-            "location": "四川成都",
+            "address": "四川成都",
             "forum":    ""
         },
         "utar": {
             "nickname": "塔塔塔",
-            "location": "北京",
+            "address": "北京",
             "forum":    ""
         },
         "yubisaki": {
             "nickname": "小林ことり",
-            "location": "上海",
+            "address": "上海",
             "forum":    ""
         },
         "pchpeach": {
             "nickname": "小桃",
-            "location": "江苏",
+            "address": "江苏",
             "forum":    ""
         },
         "scarlet_feather": {
             "nickname": "音月",
-            "location": "广东",
+            "address": "广东",
             "forum":    ""
         },
         "qq624130658": {
             "nickname": "悠姬L",
-            "location": "江苏",
+            "address": "江苏",
             "forum":    ""
         },
         "leon92101": {
             "nickname": "御户白夜",
-            "location": "上海",
+            "address": "上海",
             "forum":    ""
         },
         "209662": {
             "nickname": "莉莉丝~",
-            "location": "百慕大",//防止错误发生
+            "address": "百慕大",//防止错误发生
             "forum":    ""
         },
         "gongt": {
             "nickname": "魂魄妖梦",
-            "location": "百慕大",//防止错误发生
+            "address": "百慕大",//防止错误发生
             "forum":    ""
         },
         "66259": {
             "nickname": "暗影中的追迹者",
-            "location": "Regina, SK, Canada",
+            "address": "Regina, SK, Canada",
             "forum":    ""
         },
         "delitofu": {
             "nickname": "Deli",
-            "location": "Rome, Italie",
+            "address": "Rome, Italie",
             "forum":    ""
         },
         "dhzy": {
             "nickname": "dhzy",
-            "location": "NY, United States",
+            "address": "NY, United States",
             "forum":    ""
         },
         "36176": {
             "nickname": "豆沙包罐头",
-            "location": "Texas, United States",
+            "address": "Texas, United States",
             "forum":    ""
         },
         "65282": {
             "nickname": "ichiゴ",
-            "location": "Washington, DC, United States",
+            "address": "Washington, DC, United States",
             "forum":    ""
         },
         "light_44": {
             "nickname": "lighthouse",
-            "location": "United Kingdom",
+            "address": "United Kingdom",
             "forum":    ""
         },
         "mizudiwood": {
             "nickname": "mizudiwood",
-            "location": "日本福島縣",
+            "address": "日本福島縣",
             "forum":    ""
         },
         "gates_ice": {
             "nickname": "示申イ山",
-            "location": "Arlington Heights, IL, United States",
+            "address": "Arlington Heights, IL, United States",
             "forum":    ""
         },
         "112239": {
             "nickname": "沙翼他的大爷",
-            "location": "Spain",
+            "address": "Spain",
             "forum":    ""
         },
         "grubstreet": {
             "nickname": "小寒",
-            "location": "Washington, DC, United States",
+            "address": "Washington, DC, United States",
             "forum":    ""
         },
         "103988": {
             "nickname": "·_﹙",
-            "location": "French",
+            "address": "French",
             "forum":    ""
         },
         //unknown
         "unknown1": {
             "nickname": "無に唄を。。",
-            "location": "上海",
+            "address": "上海",
             "forum":    ""
         },
         "unknown2": {
             "nickname": "Nananas",
-            "location": "安徽",
+            "address": "安徽",
             "forum":    ""
         }
     }

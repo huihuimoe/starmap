@@ -11,7 +11,7 @@ function convert() {
 }
 
 function mapCallBack(data, second) {
-    second = 0 || second;
+    second = second || 0;
     if (second) {
         if (route[0]){
             convert();
@@ -38,7 +38,7 @@ function dataConvent(data, before, after, index) {
 function getLocation(data, profile, index, before, after, isStop) {
     var service = new google.maps.Geocoder();
     service.geocode({
-        address: profile.location
+        address: profile.address
     }, function (result, status) {
         if (status !== "OK") {
             alert("查询太快了，稍微等待一下……");
@@ -46,9 +46,11 @@ function getLocation(data, profile, index, before, after, isStop) {
             getLocation(data, profile, index, before, after, isStop);
             return;
         }
-        profile.location = result[0].formatted_address;
-        profile.lat = result[0].geometry.location.lat();
-        profile.lng = result[0].geometry.location.lng();
+        profile.address = result[0].formatted_address;
+        profile.location={
+            lat : result[0].geometry.location.lat(),
+            lng : result[0].geometry.location.lng()
+        };
         after[index] = profile;
         console.log(index);
         if (isStop) {

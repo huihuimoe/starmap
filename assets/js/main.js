@@ -1,5 +1,24 @@
 "use strict";
 
+function addMarker(location, map, title, label) {
+    label = label || "";
+    var marker = new google.maps.Marker({
+        position: location,
+        label: label,
+        map: map,
+        title: title
+    });
+    return marker;
+}
+
+function addInfoWindow(content, map) {
+
+}
+
+function addLine(path, lineSymbol, map) {
+    
+}
+
 function mapCallBack(data) {
     var current = data.current,
         route = data.route,
@@ -28,12 +47,13 @@ function mapCallBack(data) {
      * 其余部分画虚线或者其他表示方式 (选做)
      * 传递状况做一个list就可以
      */
-    route.forEach(function(data, index) {
-        
+    route.forEach(function (data, index) {
+
     });
 
     // Debug require
     console.log(route);
+    window.map=map;
 }
 
 function initMap() {
