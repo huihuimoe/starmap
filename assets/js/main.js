@@ -54,16 +54,17 @@ function mapCallBack(data) {
         addMarker(data);
     });
     for (var i = 0; i < route.length; i++) {
-        addMarker(route[i], ++i);
-        if (++i < current) {
+        var next = i + 1;
+        addMarker(route[i], next);
+        if (next < current) {
             // 实线粉色
 
-        } else if (++i === current) {
+        } else if (next === current) {
             // 实线灰色
 
-        } else if(i === route.length){
+        } else if (i === route.length) {
             continue;
-        }else{
+        } else {
             // 虚线灰色
 
         }
