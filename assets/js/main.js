@@ -30,10 +30,11 @@ function addInfoWindow(data, marker, index) {
         + '" target="_blank">' + nickname + '</a>&nbsp;<small class="grey">@'
         + username + '</small><br>' + indexContent + '&nbsp;'
         + address + '<br>' + forumContent;
-    marker.addListener('click', function () {
-        new google.maps.InfoWindow({
+    var infoWindow = new google.maps.InfoWindow({
             content: content
-        }).open(map, marker);
+        });
+    marker.addListener('click', function () {
+        infoWindow.open(map, marker);
     });
 }
 
