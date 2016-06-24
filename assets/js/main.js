@@ -1,11 +1,10 @@
 "use strict";
 
 function addMarker(data) {
-    let {location, nickname} = data;
     var marker = new google.maps.Marker({
-        position: location,
-        map: map,
-        title: nickname
+        position: data.location,
+        title: data.nickname,
+        map: map
     });
     addInfoWindow(data, marker);
 }
@@ -20,20 +19,21 @@ function addInfoWindow(data, marker) {
 }
 
 function getInfoContent(data) {
-    let {address, forum, nickname, username} = data;
-    var forumContent;
+    var address = data.address,
+        forum = data.forum,
+        nickname = data.nickname,
+        username = data.username,
+        forumContent;
     if (forum === "") {
         forumContent = "";
     } else {
-        forumContent = `
-        传递报告:<a href="https://bgm.tv/group/topic/${forum}" target="_blank">https://bgm.tv/group/topic/${forum}</a>
-        `;
+        forumContent = '传递报告:<a href="https://bgm.tv/group/topic/' + forum
+            + '" target="_blank">https://bgm.tv/group/topic/' + forum + '</a>';
     }
-    return `
-    <a href="https://bgm.tv/user/${username}" target="_blank">${nickname}</a>&nbsp;<small class="grey">@${username}</small><br>
-    位置:${address}<br>
-    ${forumContent}
-    `;
+    return '<a href="https://bgm.tv/user/' + username
+        + '" target="_blank">' + nickname + '</a>&nbsp;<small class="grey">@'
+        + username + '</small><br>位置:'
+        + address + '<br>' + forumContent;
 }
 
 function addLine(path, lineSymbol, map) {
