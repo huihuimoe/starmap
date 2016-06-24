@@ -50,7 +50,10 @@ function mapCallBack(data) {
         let {address, forum, location, nickname, username} = data;
         addMarker(location, map, nickname, index);
     });
-
+    undetermin.forEach(function (data, index) {
+        let {address, forum, location, nickname, username} = data;
+        addMarker(location, map, nickname);
+    });
     // Debug require
     //console.log(route);
     window.map=map;
