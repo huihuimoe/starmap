@@ -1,15 +1,13 @@
 "use strict";
 
-function addMarker(array) {
-    array.forEach(function (data, index) {
-        let {location, nickname} = data;
-        var marker = new google.maps.Marker({
-            position: location,
-            map: map,
-            title: nickname
-        });
-        addInfoWindow(data, marker);
+function addMarker(data) {
+    let {location, nickname} = data;
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: nickname
     });
+    addInfoWindow(data, marker);
 }
 
 function addInfoWindow(data, marker) {
@@ -24,9 +22,9 @@ function addInfoWindow(data, marker) {
 function getInfoContent(data) {
     let {address, forum, nickname, username} = data;
     var forumContent;
-    if (forum === ""){
+    if (forum === "") {
         forumContent = "";
-    }else{
+    } else {
         forumContent = `
         传递报告:<a href="https://bgm.tv/group/topic/${forum}" target="_blank">https://bgm.tv/group/topic/${forum}</a>
         `;
@@ -48,11 +46,19 @@ function mapCallBack(data) {
         undetermin = data.undetermin,
         map;
     window.map = new google.maps.Map(document.getElementById('map-content'), {
-        center: { lat: 34.2596292, lng: 108.6870192 }, //西安
+        center: { lat: 34.2596292, lng: 108.6870192 }, // 第一站 : 西安
         zoom: 5
     });
-    addMarker(route);
-    addMarker(undetermin);
+    undetermin.forEach(function (data) {
+        addMarker(data);
+    });
+    for (var i = 0; i < route.length; i++) {
+        addMarker(route[i]);
+        // #stat content
+
+        // addLine
+
+    }
 }
 
 function initMap() {
