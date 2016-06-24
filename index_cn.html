@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bangumi星空计划地图索引">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="rgb(233,30,99)">
+    <title>星空地图</title>
+    <link rel="shortcut icon" href="//bgm.tv/img/favicon.ico">
+    <link rel="stylesheet" href="//fonts.lug.ustc.edu.cn/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/material.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- IE Compatibility shims -->
+    <!--[if lt IE 9]>
+        <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <![endif]-->
+    <!--[if IE]>
+        <script src="//cdn.bootcss.com/es5-shim/4.1.7/es5-shim.min.js"></script>
+        <script src="//cdn.bootcss.com/classlist/2014.01.31/classList.min.js"></script>
+        <script src="//cdn.bootcss.com/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <script src="//cdn.bootcss.com/flexie/1.0.3/flexie.min.js"></script>
+      <![endif]-->
+    <!-- end shims -->
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">星空地图</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a href="https://github.com/huihuimoe/starmap" class="mdl-navigation__link mdl-navigation__link--icon" target="_blank">
+                        <i class="material-icons">link</i>
+                        <span>GitHub</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#maps" class="mdl-layout__tab is-active">大地图</a>
+                <a href="#stat" class="mdl-layout__tab">传递状况</a>
+                <a href="#wiki" class="mdl-layout__tab">页面说明</a>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">这个还没写啦~</span>
+        </div>
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="maps">
+                <div class="page-content" id="map-content"></div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="stat">
+                <div class="page-content">
+                    这个还没写啦~
+                </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="wiki">
+                <div class="page-content">
+                    这个还没写啦~
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script async defer src="assets/js/material.min.js"></script>
+    <script async defer src="//maps.google.cn/maps/api/js?key=AIzaSyB2rLgLudyVjKiTcqclS8WJb8S3U5R728g&callback=initMap"></script>
+</body>
+
+</html>

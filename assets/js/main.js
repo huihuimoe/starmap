@@ -44,7 +44,7 @@ function mapCallBack(data) {
     var current = data.current,
         route = data.route,
         undetermin = data.undetermin,
-        map;
+        map, statContent;
     window.map = new google.maps.Map(document.getElementById('map-content'), {
         center: { lat: 34.2596292, lng: 108.6870192 }, // 第一站 : 西安
         zoom: 5
