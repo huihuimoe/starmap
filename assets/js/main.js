@@ -1,21 +1,45 @@
 "use strict";
 
-function addMarker(location, map, title, label) {
-    label = label || "";
-    return new google.maps.Marker({
-        position: location,
-        label: label.toString(),
-        map: map,
-        title: title
+function addMarker(array) {
+    array.forEach(function (data, index) {
+        let {location, nickname} = data;
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            title: nickname
+        });
+        addInfoWindow(data, marker);
     });
 }
 
-function addInfoWindow(content, marker) {
+function addInfoWindow(data, marker) {
+    var infowindow = new google.maps.InfoWindow({
+        content: getInfoContent(data)
+    });
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
+    });
+}
 
+function getInfoContent(data) {
+    let {address, forum, nickname, username} = data;
+    var forumContent;
+    if (forum === ""){
+        forumContent = "";
+    }else{
+        forumContent = `
+        传递报告:<a href="https://bgm.tv/group/topic/${forum}" target="_blank">https://bgm.tv/group/topic/${forum}</a>
+        `;
+    }
+    return `
+    <a href="https://bgm.tv/user/${username}" target="_blank">${nickname}</a>&nbsp;<small class="grey">@${username}</small><br>
+    位置:${address}<br>
+    ${forumContent}
+    `;
 }
 
 function addLine(path, lineSymbol, map) {
-    
+
 }
 
 function mapCallBack(data) {
@@ -23,40 +47,12 @@ function mapCallBack(data) {
         route = data.route,
         undetermin = data.undetermin,
         map;
-    map = new google.maps.Map(document.getElementById('map-content'), {
-        center: { lat: 34.2596292, lng: 108.6870192 },
-        zoom: 5.2
+    window.map = new google.maps.Map(document.getElementById('map-content'), {
+        center: { lat: 34.2596292, lng: 108.6870192 }, //西安
+        zoom: 5
     });
-
-    /**
-     * 转换完成后需要用到的变量
-     * route
-     * undetermin
-     * current
-     * map
-     */
-    /**
-     * 标记 和 面板部分
-     * route undetermin 的location都需要做
-     * 面板就是个人信息什么的……
-     */
-    /**
-     * 画线部分 和 传递状况
-     * index < current-1 部分画实线
-     * 其余部分画虚线或者其他表示方式 (选做)
-     * 传递状况做一个list就可以
-     */
-    route.forEach(function (data, index) {
-        let {address, forum, location, nickname, username} = data;
-        addMarker(location, map, nickname, index);
-    });
-    undetermin.forEach(function (data, index) {
-        let {address, forum, location, nickname, username} = data;
-        addMarker(location, map, nickname);
-    });
-    // Debug require
-    //console.log(route);
-    window.map=map;
+    addMarker(route);
+    addMarker(undetermin);
 }
 
 function initMap() {
