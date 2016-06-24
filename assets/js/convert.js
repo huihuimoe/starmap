@@ -1,11 +1,11 @@
 "use strict";
-var route = new Array(), undetermin = new Array();
+var route = new Array(), aboard = new Array();
 
 function convert() {
     var result = {
         "current": data.current,
         "route": route,
-        "undetermin": undetermin
+        "aboard": aboard
     };
     document.getElementById("result").innerHTML = JSON.stringify(result);
 }
@@ -21,8 +21,8 @@ function mapCallBack(data, second) {
         dataConvent(data, data.route, route);
     } else {
         window.data = data;
-        console.log("dataConvent undetermin start");
-        dataConvent(data, data.undetermin, undetermin);
+        console.log("dataConvent aboard start");
+        dataConvent(data, data.aboard, aboard);
     }
 }
 

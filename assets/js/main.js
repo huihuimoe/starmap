@@ -1,62 +1,73 @@
 "use strict";
 
-function addMarker(data) {
+function addMarker(data, index) {
     var marker = new google.maps.Marker({
         position: data.location,
         title: data.nickname,
         map: map
     });
-    addInfoWindow(data, marker);
+    addInfoWindow(data, marker, index);
 }
 
-function addInfoWindow(data, marker) {
-    var infowindow = new google.maps.InfoWindow({
-        content: getInfoContent(data)
-    });
-    marker.addListener('click', function () {
-        infowindow.open(map, marker);
-    });
-}
-
-function getInfoContent(data) {
+function addInfoWindow(data, marker, index) {
     var address = data.address,
         forum = data.forum,
         nickname = data.nickname,
         username = data.username,
-        forumContent;
+        forumContent, indexContent, content;
     if (forum === "") {
         forumContent = "";
     } else {
         forumContent = '传递报告:<a href="https://bgm.tv/group/topic/' + forum
             + '" target="_blank">https://bgm.tv/group/topic/' + forum + '</a>';
     }
-    return '<a href="https://bgm.tv/user/' + username
+    if (index) {
+        indexContent = "第" + index + "站";
+    } else {
+        indexContent = "海外党";
+    }
+    content = '<a href="https://bgm.tv/user/' + username
         + '" target="_blank">' + nickname + '</a>&nbsp;<small class="grey">@'
-        + username + '</small><br>位置:'
+        + username + '</small><br>' + indexContent + '&nbsp;'
         + address + '<br>' + forumContent;
+    marker.addListener('click', function () {
+        new google.maps.InfoWindow({
+            content: content
+        }).open(map, marker);
+    });
 }
 
-function addLine(path, lineSymbol, map) {
+function addLine(path, lineSymbol) {
 
 }
 
 function mapCallBack(data) {
     var current = data.current,
         route = data.route,
-        undetermin = data.undetermin,
+        aboard = data.aboard,
         map, statContent;
     window.map = new google.maps.Map(document.getElementById('map-content'), {
         center: { lat: 34.2596292, lng: 108.6870192 }, // 第一站 : 西安
         zoom: 5
     });
-    undetermin.forEach(function (data) {
+    aboard.forEach(function (data) {
         addMarker(data);
     });
     for (var i = 0; i < route.length; i++) {
-        addMarker(route[i]);
-        // #stat content
+        addMarker(route[i], ++i);
+        if (++i < current) {
+            // 实线粉色
 
-        // addLine
+        } else if (++i === current) {
+            // 实线灰色
+
+        } else if(i === route.length){
+            continue;
+        }else{
+            // 虚线灰色
+
+        }
+        // #stat content
 
     }
 }
