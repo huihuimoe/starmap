@@ -2,16 +2,15 @@
 
 function addMarker(location, map, title, label) {
     label = label || "";
-    var marker = new google.maps.Marker({
+    return new google.maps.Marker({
         position: location,
-        label: label,
+        label: label.toString(),
         map: map,
         title: title
     });
-    return marker;
 }
 
-function addInfoWindow(content, map) {
+function addInfoWindow(content, marker) {
 
 }
 
@@ -25,8 +24,8 @@ function mapCallBack(data) {
         undetermin = data.undetermin,
         map;
     map = new google.maps.Map(document.getElementById('map-content'), {
-        center: { lat: 23.1259819, lng: 112.9476504 },
-        zoom: 10
+        center: { lat: 34.2596292, lng: 108.6870192 },
+        zoom: 5.2
     });
 
     /**
@@ -48,11 +47,12 @@ function mapCallBack(data) {
      * 传递状况做一个list就可以
      */
     route.forEach(function (data, index) {
-
+        let {address, forum, location, nickname, username} = data;
+        addMarker(location, map, nickname, index);
     });
 
     // Debug require
-    console.log(route);
+    //console.log(route);
     window.map=map;
 }
 
