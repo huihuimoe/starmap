@@ -31,21 +31,50 @@ function addInfoWindow(data, marker, index) {
         + username + '</small><br>' + indexContent + '&nbsp;'
         + address + '<br>' + forumContent;
     var infoWindow = new google.maps.InfoWindow({
-            content: content
-        });
+        content: content
+    });
     marker.addListener('click', function () {
         infoWindow.open(map, marker);
     });
 }
 
-function addLine(path, lineSymbol) {
-
+function addLine(path, color, lineSymbol) {
+    if (lineSymbol) {
+        var setting = {
+            path: path,
+            strokeColor: color,
+            strokeOpacity: 0,
+            icons: [{
+                icon: lineSymbol,
+                offset: '0',
+                repeat: '20px'
+            }],
+        }
+    } else {
+        var setting = {
+            path: path,
+            geodesic: true,
+            strokeColor: color,
+            strokeOpacity: 1,
+            strokeWeight: 2
+        }
+    }
+    var line = new google.maps.Polyline(setting);
+    line.setMap(map);
 }
 
 function mapCallBack(data) {
     var current = data.current,
         route = data.route,
         aboard = data.aboard,
+        dash = {
+            path: 'M 0,-1 0,1',
+            strokeOpacity: 1,
+            scale: 2
+        },
+        path1 = new Array(),
+        path2 = new Array(),
+        path3 = new Array(),
         map, statContent;
     window.map = new google.maps.Map(document.getElementById('map-content'), {
         center: { lat: 34.2596292, lng: 108.6870192 }, // 第一站 : 西安
@@ -57,21 +86,20 @@ function mapCallBack(data) {
     for (var i = 0; i < route.length; i++) {
         var next = i + 1;
         addMarker(route[i], next);
-        if (next < current) {
-            // 实线粉色
-
-        } else if (next === current) {
-            // 实线灰色
-
-        } else if (i === route.length) {
-            continue;
+        if (i < current) {
+            path1[i] = route[i].location;
+        } else if (i === current) {
+            path2[0] = route[i - 1].location;
+            path2[1] = route[i].location;
         } else {
-            // 虚线灰色
-
+            path3[i - 1 - current] = route[i - 1].location;
         }
         // #stat content
 
     }
+    addLine(path1, 'rgb(233,30,99)');
+    addLine(path2, 'rgb(233,30,99)', dash);
+    addLine(path3, 'rgb(153,153,153)', dash);
 }
 
 function initMap() {
