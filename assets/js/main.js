@@ -67,11 +67,6 @@ function mapCallBack(data) {
     var current = data.current,
         route = data.route,
         aboard = data.aboard,
-        dash = {
-            path: 'M 0,-1 0,1',
-            strokeOpacity: 1,
-            scale: 2
-        },
         path1 = new Array(),
         path2 = new Array(),
         path3 = new Array(),
@@ -98,8 +93,12 @@ function mapCallBack(data) {
 
     }
     addLine(path1, 'rgb(233,30,99)');
-    addLine(path2, 'rgb(233,30,99)', dash);
-    addLine(path3, 'rgb(153,153,153)', dash);
+    addLine(path2, 'rgb(153,153,153)');
+    addLine(path3, 'rgb(153,153,153)', {
+            path: 'M 0,-1 0,1',
+            strokeOpacity: 1,
+            scale: 2
+    });
 }
 
 function initMap() {
