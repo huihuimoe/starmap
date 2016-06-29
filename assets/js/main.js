@@ -92,6 +92,8 @@ function mapCallBack(data) {
         // #stat content
 
     }
+    // 增加最后的路线
+    path3[route.length - 1 - current ] = route[route.length - 1].location;
     addLine(path1, 'rgb(233,30,99)');
     addLine(path2, 'rgb(153,153,153)');
     addLine(path3, 'rgb(153,153,153)', {
