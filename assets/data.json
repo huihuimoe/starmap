@@ -32,7 +32,7 @@
         "mono",
         "unknown1", //未知 nickname为 無に唄を。。
         "azurewrath",
-        "unknown2", //未知 nickname为 Nananas
+        "wdd5261314",
         "abioticsq",
         "sha1360",
         // 31-40
@@ -322,8 +322,8 @@
             "address": "上海",
             "forum":    ""
         },
-        "unknown2": {
-            "nickname": "Nananas",
+        "wdd5261314": {
+            "nickname": "Nananas三七",
             "address": "安徽",
             "forum":    ""
         }
