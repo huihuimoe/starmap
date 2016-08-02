@@ -1,5 +1,5 @@
 {
-    "current": 6,
+    "current": 8,
     "route": [
         // https://bgm.tv/group/topic/340195
         // 1-10
@@ -99,12 +99,12 @@
         "skgyou27": {
             "nickname": "yuu27",
             "address": "广东深圳",
-            "forum":    ""
+            "forum":    "340861"
         },
         "63501": {
             "nickname": "澄子",
-            "address": "广东",
-            "forum":    ""
+            "address": "江苏省高邮市",
+            "forum":    "340921"
         },
         "seveninti": {
             "nickname": "岛村卵用",
@@ -158,7 +158,7 @@
         },
         "apocalypse_shu": {
             "nickname": "芥末酱油丸",
-            "address": "北京",
+            "address": "北京市东城区",
             "forum":    "340806"
         },
         "kakinuma": {
