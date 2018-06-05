@@ -46,7 +46,8 @@ function dataConvent (data, before, after, index) {
 
 function getLocation (data, profile, index, before, after, isStop) {
   googleMapsClient.geocode({
-    address: profile.address
+    address: profile.address,
+    language: 'zh-CN'
   }, function (err, response) {
     if (err) {
       console.error('查询太快了，稍微等待一下……')
