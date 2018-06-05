@@ -1,5 +1,5 @@
 {
-    "current": 8,
+    "current": 35,
     "route": [
         // https://bgm.tv/group/topic/340195
         // 1-10
@@ -17,52 +17,55 @@
         "everpcpc",
         "hottomper",
         "fifth",
-        "frank1998sj",
         "xu940830",
         "wjself",
-        "a582977826",
+        "light_44",
         "sinker",
-        "kakinuma",
+        "frank1998sj",
         "zhaory",
-        // 21-30
         "karelif",
-        "leeschan",
-        "mgodric",
+        // 21-30
+        "kakinuma",
         "angcz",
-        "mono",
-        "unknown1", //未知 nickname为 無に唄を。。
+        "mgodric",
+        "leeschan",
+        "a582977826",
         "azurewrath",
+        "66259",
         "wdd5261314",
         "abioticsq",
-        "sha1360",
-        // 31-40
+        // "mono",
+        // "sha1360",
         "ohana",
+        // 31-40
         "stay",
         "utar",
-        "yubisaki",
-        "pchpeach",
+        "242254",
         "scarlet_feather",
         "qq624130658",
         "leon92101",
         "209662",
-        "gongt"
+        "gongt",
+        "mozilla",
+        "a2294699068"
     ],
     "aboard": [
         ///
         // 海外待定区
-        // @暗影中的追迹者 | @Deil | @dhzy | @豆沙包罐头 | @ichiゴ | @Lighthouse 不该 | @mizudiwood | @示申イ山 | @沙翼他的大爷 | @小寒 | @·_﹙
+        // @Deil | @dhzy | @豆沙包罐头 | @ichiゴ| @mizudiwood | @示申イ山 | @沙翼他的大爷 | @小寒 | @·_﹙ | @侧耳倾听 | @小林ことり | @小桃
         ///
-        "66259",
         "delitofu",
         "dhzy",
         "36176",
         "65282",
-        "light_44",
         "mizudiwood",
         "gates_ice",
         "112239",
         "grubstreet",
-        "103988"
+        "103988",
+        "index_azoth",
+        "pchpeach",
+        "yubisaki"
     ],
     "profile": {
         ///
@@ -71,6 +74,11 @@
         // address
         // forum - https://bgm.tv/group/topic/{$forum}
         ///
+        "242254": {
+            "nickname": "摩卡香又甜",
+            "address": "南京",
+            "forum":    "344519"
+        },
         "zainer": {
             "nickname": "阿布拉其阿亚尔阿肯尔",
             "address": "陕西省西安市",
@@ -109,32 +117,32 @@
         "seveninti": {
             "nickname": "岛村卵用",
             "address": "贵州",
-            "forum":    ""
+            "forum":    "340993"
         },
         "detao0452": {
             "nickname": "Detao",
             "address": "甘肃",
-            "forum":    ""
+            "forum":    "341230"
         },
         "everpcpc": {
             "nickname": "everpcpc",
             "address": "北京",
-            "forum":    ""
+            "forum":    "341276"
         },
         "hottomper": {
             "nickname": "绯红の空",
-            "address": "陕西省西安市莲湖区",
-            "forum":    ""
+            "address": "陕西省西安市",
+            "forum":    "341355"
         },
         "fifth": {
             "nickname": "fifth",
             "address": "上海市",
-            "forum":    ""
+            "forum":    "341469"
         },
         "frank1998sj": {
             "nickname": "Frank1998sj",
             "address": "上海",
-            "forum":    ""
+            "forum":    "342026"
         },
         "xu940830": {
             "nickname": "工藤龍一郎",
@@ -144,17 +152,17 @@
         "wjself": {
             "nickname": "灰灰",
             "address": "广东省云浮市",
-            "forum":    ""
+            "forum":    "341796"
         },
         "a582977826": {
             "nickname": "昊天通明宫",
             "address": "四川",
-            "forum":    ""
+            "forum":    "343314"
         },
         "sinker": {
             "nickname": "15cm_窗",
             "address": "浙江",
-            "forum":    ""
+            "forum":    "341925"
         },
         "apocalypse_shu": {
             "nickname": "芥末酱油丸",
@@ -164,17 +172,17 @@
         "kakinuma": {
             "nickname": "柿沼楚子",
             "address": "江苏",
-            "forum":    ""
+            "forum":    "342549"
         },
         "zhaory": {
             "nickname": "K K K_KAZE",
             "address": "河南",
-            "forum":    ""
+            "forum":    "342201"
         },
         "karelif": {
             "nickname": "KareLIF",
             "address": "辽宁",
-            "forum":    ""
+            "forum":    "342224"
         },
         "leeschan": {
             "nickname": "Leeschan",
@@ -184,12 +192,12 @@
         "mgodric": {
             "nickname": "麦糕",
             "address": "浙江",
-            "forum":    ""
+            "forum":    "342500"
         },
         "angcz": {
             "nickname": "慢几拍",
             "address": "武汉",
-            "forum":    ""
+            "forum":    "342378"
         },
         "mono": {
             "nickname": "mono",
@@ -199,12 +207,12 @@
         "azurewrath": {
             "nickname": "奈美酱拉面",
             "address": "北京",
-            "forum":    ""
+            "forum":    "343417"
         },
         "abioticsq": {
-            "nickname": "男厕所精灵",
+            "nickname": "男厕所小精灵",
             "address": "安徽",
-            "forum":    ""
+            "forum":    "343862"
         },
         "sha1360": {
             "nickname": "Pnyuu",
@@ -212,9 +220,9 @@
             "forum":    ""
         },
         "ohana": {
-            "nickname": "HKH",
+            "nickname": "IKH",
             "address": "陕西",
-            "forum":    ""
+            "forum":    "344052"
         },
         "stay": {
             "nickname": "iahaa",
@@ -224,7 +232,7 @@
         "utar": {
             "nickname": "塔塔塔",
             "address": "北京",
-            "forum":    ""
+            "forum":    "344343"
         },
         "yubisaki": {
             "nickname": "小林ことり",
@@ -244,7 +252,7 @@
         "qq624130658": {
             "nickname": "悠姬L",
             "address": "江苏",
-            "forum":    ""
+            "forum":    "345312"
         },
         "leon92101": {
             "nickname": "御户白夜",
@@ -263,8 +271,8 @@
         },
         "66259": {
             "nickname": "暗影中的追迹者",
-            "address": "Regina, SK, Canada",
-            "forum":    ""
+            "address": "北京",
+            "forum":    "343509"
         },
         "delitofu": {
             "nickname": "Deli",
@@ -289,7 +297,7 @@
         "light_44": {
             "nickname": "lighthouse",
             "address": "上海闵行区",
-            "forum":    ""
+            "forum":    "341848"
         },
         "mizudiwood": {
             "nickname": "mizudiwood",
@@ -316,15 +324,25 @@
             "address": "法国图卢兹",
             "forum":    ""
         },
-        //unknown
-        "unknown1": {
-            "nickname": "無に唄を。。",
-            "address": "上海",
-            "forum":    ""
-        },
         "wdd5261314": {
             "nickname": "Nananas三七",
             "address": "安徽",
+            "forum":    "343665"
+        },
+        // unknown
+        "mozilla": {
+            "nickname": "wei",
+            "address": "中国",
+            "forum":    ""
+        },
+        "a2294699068": {
+            "nickname": "ryuju",
+            "address": "中国",
+            "forum":    ""
+        },
+        "index_azoth": {
+            "nickname": "侧耳倾听",
+            "address": "百慕大",
             "forum":    ""
         }
     }

@@ -1,0 +1,25 @@
+{
+  "name": "starmap",
+  "version": "1.0.0",
+  "description": "不想写readme……",
+  "main": "convert.js",
+  "scripts": {
+    "start": "npm run convert",
+    "build": "node convert",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huihuimoe/starmap.git"
+  },
+  "author": "huihuimoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huihuimoe/starmap/issues"
+  },
+  "homepage": "https://github.com/huihuimoe/starmap#readme",
+  "dependencies": {
+    "@google/maps": "^0.4.6",
+    "strip-json-comments": "^2.0.1"
+  }
+}
